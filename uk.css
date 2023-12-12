@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    
+    background-color: #01237C;
+}
+
+.cross{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    
+    height: 18%;
+    width : 150%;
+    transform: translate(-50%, -50%) rotate(34deg);
+}
+
+.crossOne {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    
+    height: 18%;
+    width : 150%;
+    transform: translate(-50%, -50%) rotate(-34deg);
+
+}
+
+.leftUp {
+    position: absolute;
+    background-color: #D40000;
+    bottom: 20%;
+    right: 50%;
+    height: 30%;
+    width : 150%;
+
+}
+
+.leftDown {
+    position: absolute;
+    background-color: #D40000;
+    bottom: 20%;
+    right: 50%;
+    height: 30%;
+    width : 150%;
+
+}
+
+.rightDown {
+    position: absolute;
+    background-color: #D40000;
+    top: 20%;
+    left: 50%;
+    height: 30%;
+    width : 150%;
+
+}
+
+.rightUp{
+    position: absolute;
+    background-color: #D40000;
+    top: 20%;
+    left: 50%;
+    height: 30%;
+    width : 150%;
+
+}
+
+
+.plusRow {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    transform: translateY(-50%);
+}
+
+.plusRowInner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 13%;
+    background-color: #D40000;
+    transform: translateY(-50%);
+
+}
+
+.vertical{
+    transform: rotate(90deg);
+}
+
